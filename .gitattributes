@@ -1,0 +1,14 @@
+# Inno Setup executables are binary
+*.exe binary
+
+# Markdown files should use LF line endings
+*.md text eol=lf
+
+# Batch files should use CRLF on Windows
+*.bat text eol=crlf
+
+# Python files should use LF
+*.py text eol=lf
+
+# JSON files should use LF
+*.json text eol=lf
